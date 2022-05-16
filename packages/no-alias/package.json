@@ -1,6 +1,6 @@
 {
   "name": "graphql-no-alias",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "private": false,
   "description": "No alias directive for graphql mutation and query types. It can limit the amount of alias fields that can be used for queries and mutations. Preventing batch attacks.",
   "keywords": [
@@ -15,7 +15,7 @@
   "license": "MIT",
   "main": "./dist/prod/graphql-no-alias.js",
   "exports": {
-    "import": "./dist/prod/graphql-no-alias.esm.js",
+    "import": "./dist/prod/graphql-no-alias.esm.mjs",
     "require": "./dist/prod/graphql-no-alias.js"
   },
   "types": "./dist/types/index.d.ts",
